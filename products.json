@@ -1,0 +1,178 @@
+{
+  "site": {
+    "name": "A Studio & Cie",
+    "tagline": "Un nouveau produit digital chaque semaine",
+    "description": "Calendriers, planners et papeterie à imprimer. Un nouveau produit digital chaque semaine, à acheter et télécharger en toute sécurité sur Etsy.",
+    "etsy_shop_url": "https://www.etsy.com/fr/shop/AStudioCie",
+    "url": "https://adiziere.github.io/astudiocie/",
+    "contact_email": "",
+    "start_date": "2026-11-09"
+  },
+  "products": [
+    {
+      "slug": "calendrier-botanique-2027",
+      "week": 1,
+      "release_date": "2026-11-09",
+      "category": "Calendriers",
+      "title": "Calendrier botanique 2027",
+      "subtitle": "12 planches botaniques vintage, une plante d'intérieur par mois",
+      "price": "5,90 €",
+      "versions": [
+        {
+          "name": "Version numérique",
+          "detail": "5 fichiers PDF à imprimer chez vous · téléchargement immédiat",
+          "price": "5,90 €",
+          "etsy_url": "https://www.etsy.com/fr/listing/4608800265/calendrier-2027-a-imprimer-calendrier"
+        },
+        {
+          "name": "Version imprimée",
+          "detail": "Le calendrier imprimé, expédié chez vous",
+          "price": "15,00 €",
+          "etsy_url": "https://www.etsy.com/fr/listing/4608820683/calendrier-2027-imprime-calendrier-mural"
+        }
+      ],
+      "badges": [
+        "A4 & US Letter",
+        "FR + EN",
+        "Lundi ou dimanche"
+      ],
+      "images": [
+        {
+          "file": "01-principal.jpg",
+          "alt": "Couverture du calendrier botanique 2027 et aperçu des pages"
+        },
+        {
+          "file": "02-planches.jpg",
+          "alt": "Les 12 planches botaniques vintage, de janvier à décembre"
+        },
+        {
+          "file": "03-detail-mois.jpg",
+          "alt": "Détail d'une page du mois avec planche, conseils d'entretien et grille"
+        },
+        {
+          "file": "04-mise-en-situation.jpg",
+          "alt": "Calendrier imprimé accroché au mur"
+        },
+        {
+          "file": "05-inclus.jpg",
+          "alt": "Les 5 fichiers PDF inclus"
+        }
+      ],
+      "intro": "Un peu de verdure pour chaque mois de 2027. Ce calendrier à imprimer réunit 12 planches botaniques de style ancien, à l'aquarelle et à l'encre, dans la tradition de l'illustration scientifique du XIXᵉ siècle. Chaque mois vous donne aussi l'essentiel pour que la plante se porte bien.",
+      "sections": [
+        {
+          "title": "Chaque mois",
+          "items": [
+            "Une planche botanique pleine largeur : la plante et ses détails (feuilles, fleurs, racines…)",
+            "L'entretien en un coup d'œil : lumière, arrosage, température, humidité",
+            "Une astuce du mois",
+            "Une grande grille avec les week-ends mis en valeur"
+          ]
+        },
+        {
+          "title": "Ce que vous recevez",
+          "items": [
+            "5 fichiers PDF de 13 pages (couverture + 12 mois)",
+            "Version française, A4, semaine commençant le lundi",
+            "Versions anglaises en A4 et US Letter, semaine commençant le lundi ou le dimanche"
+          ]
+        },
+        {
+          "title": "Impression",
+          "items": [
+            "À imprimer chez vous ou en reprographie",
+            "Idéalement sur papier mat épais (160 à 250 g), en « taille réelle »",
+            "À accrocher avec une pince, sur un porte-bloc, ou à relier"
+          ]
+        }
+      ],
+      "table": {
+        "title": "Les 12 plantes",
+        "rows": [
+          [
+            "Janvier",
+            "Monstera"
+          ],
+          [
+            "Février",
+            "Pothos"
+          ],
+          [
+            "Mars",
+            "Sansevieria"
+          ],
+          [
+            "Avril",
+            "Figuier lyre"
+          ],
+          [
+            "Mai",
+            "Fleur de lune"
+          ],
+          [
+            "Juin",
+            "Cactus"
+          ],
+          [
+            "Juillet",
+            "Calathea"
+          ],
+          [
+            "Août",
+            "Plante chapelet"
+          ],
+          [
+            "Septembre",
+            "Zamioculcas"
+          ],
+          [
+            "Octobre",
+            "Caoutchouc"
+          ],
+          [
+            "Novembre",
+            "Pilea"
+          ],
+          [
+            "Décembre",
+            "Cactus de Noël"
+          ]
+        ]
+      },
+      "note": "Les planches botaniques ont été créées avec l'aide d'outils d'IA, puis sélectionnées, retouchées et mises en page par mes soins. Les conseils d'entretien et la conception du calendrier sont mon travail."
+    }
+  ],
+  "apps": [
+    {
+      "slug": "seve",
+      "name": "Sève",
+      "tagline": "Moins de charge mentale. Plus de place pour vivre.",
+      "description": "La to-do list Android qui fait pousser un petit jardin. Cochez vos tâches directement depuis l'écran d'accueil, sans même ouvrir l'appli.",
+      "platform": "Android",
+      "price": "Gratuite",
+      "store_url": "",
+      "features": [
+        [
+          "Widgets cochables",
+          "Cochez vos tâches depuis l'écran d'accueil, sans ouvrir l'appli."
+        ],
+        [
+          "Un jardin qui pousse",
+          "Chaque tâche terminée fait grandir votre plante, de la pousse à la plante épanouie."
+        ],
+        [
+          "Vue « Aujourd'hui »",
+          "Votre journée en un coup d'œil, avec la progression et une phrase du jour."
+        ],
+        [
+          "Rappels et listes",
+          "Travail, Personnel, Courses, Projets… avec des rappels à l'heure choisie."
+        ],
+        [
+          "100 % privée",
+          "Aucun compte, aucune publicité, aucune connexion : vos tâches restent sur votre téléphone."
+        ]
+      ]
+    }
+  ]
+}
