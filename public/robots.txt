@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adiziere.github.io/astudiocie/sitemap.xml

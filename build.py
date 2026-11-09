@@ -386,6 +386,20 @@ def build_product(p):
     (out / f'{p["slug"]}.html').write_text(html_out, encoding="utf-8")
 
 
+def build_seo():
+    """sitemap.xml et robots.txt (si l'adresse du site est renseignée)."""
+    if not SITE.get("url"):
+        return
+    base = SITE["url"].rstrip("/")
+    today = dt.date.today().isoformat()
+    urls = [f"{base}/"] + [f'{base}/produits/{p["slug"]}.html' for p in PRODUCTS]
+    entries = "".join(f"<url><loc>{e(u)}</loc><lastmod>{today}</lastmod></url>" for u in urls)
+    (PUBLIC / "sitemap.xml").write_text(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{entries}</urlset>\n', encoding="utf-8")
+    (PUBLIC / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {base}/sitemap.xml\n", encoding="utf-8")
+
+
 def main():
     warnings = []
     for p in PRODUCTS:
@@ -397,6 +411,7 @@ def main():
     build_index()
     for p in PRODUCTS:
         build_product(p)
+    build_seo()
     print(f"Site généré dans {PUBLIC} ({len(PRODUCTS)} produit(s)).")
     for w in warnings:
         print("Attention :", w)
